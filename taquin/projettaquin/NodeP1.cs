@@ -54,7 +54,7 @@ namespace projettaquin
 
 
         //Permet de créer la liste des successeurs
-        public override List<GenericNode> GetListSucc()
+        public override List<GenericNode> GetListSucc()  
         {
             char[,] tab = _map;
 
@@ -66,18 +66,19 @@ namespace projettaquin
             
             
             // Successeur à gauche
-            if (posx > 1 && _map[(_coordXD - 1), _coordYD] != '-' )
+            if (posx > 1 && _map[_coordYD, (_coordXD - 1)] != 'w')
             {
                 // MAJ de la position du noeud en cours
                 string name2 = (_coordXD - 1) + "," + _coordYD;
+                
                 // Ajout à listsucc
-
                 lsucc.Add(new NodeP1(name2, _end, _map));
 
+                
             }
 
             // Successeur à droite
-            if (posx < 18 && _map[(_coordXD + 1), _coordYD] != '-')
+            if (posx < 18 && _map[_coordYD, (_coordXD + 1)] != 'w')
             {
                 // MAJ de la position du noeud en cours
                 string name2 = (_coordXD + 1) + "," + _coordYD;
@@ -88,7 +89,7 @@ namespace projettaquin
             
             
             // Successeur en haut
-            if (posy > 1 && _map[_coordXD, (_coordYD - 1)] != '-')
+            if (posy > 1 && _map[(_coordYD - 1), _coordXD] != 'w')
             {
                 // MAJ de la position du noeud en cours
                 string name2 = _coordXD + "," + (_coordYD - 1);
@@ -99,7 +100,7 @@ namespace projettaquin
 
 
             // Successeur en bas
-            if (posy < 18 && _map[_coordXD, (_coordYD + 1)] != '-')
+            if (posy < 18 && _map[(_coordYD + 1), _coordXD] != 'w')
             {
                 // MAJ de la position du noeud en cours
                 string name2 =  _coordXD + "," + (_coordYD + 1);

@@ -17,3 +17,12 @@ C:\Users\Gwendal\Documents\GitHub\Projet-IA\taquin\projettaquin\obj\Debug\projet
 C:\Users\Gwendal\Documents\GitHub\Projet-IA\taquin\projettaquin\obj\Debug\projettaquin.csproj.GenerateResource.Cache
 C:\Users\Gwendal\Documents\GitHub\Projet-IA\taquin\projettaquin\bin\Debug\projettaquin.exe
 C:\Users\Gwendal\Documents\GitHub\Projet-IA\taquin\projettaquin\bin\Debug\projettaquin.pdb
+C:\Users\Amélie\Documents\GitHub\Projet-IA\taquin\projettaquin\bin\Debug\projettaquin.exe.config
+C:\Users\Amélie\Documents\GitHub\Projet-IA\taquin\projettaquin\obj\Debug\projettaquin.exe
+C:\Users\Amélie\Documents\GitHub\Projet-IA\taquin\projettaquin\obj\Debug\projettaquin.pdb
+C:\Users\Amélie\Documents\GitHub\Projet-IA\taquin\projettaquin\bin\Debug\projettaquin.exe
+C:\Users\Amélie\Documents\GitHub\Projet-IA\taquin\projettaquin\bin\Debug\projettaquin.pdb
+C:\Users\Amélie\Documents\GitHub\Projet-IA\taquin\projettaquin\obj\Debug\projettaquin.csprojResolveAssemblyReference.cache
+C:\Users\Amélie\Documents\GitHub\Projet-IA\taquin\projettaquin\obj\Debug\projettaquin.Form1.resources
+C:\Users\Amélie\Documents\GitHub\Projet-IA\taquin\projettaquin\obj\Debug\projettaquin.Properties.Resources.resources
+C:\Users\Amélie\Documents\GitHub\Projet-IA\taquin\projettaquin\obj\Debug\projettaquin.csproj.GenerateResource.Cache

@@ -271,5 +271,10 @@ namespace projettaquin
                 g.GetSearchTree(treeView1);
             }
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
